@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            height: 700vh;
+            width: 100%;
+            background-color: beige;
+            /*position:relative;*/
+        }
+        .b1{
+            width: 100px;
+            height: 100px;
+            background-color: black;
+            position: fixed;
+        }
+        .b2{
+            width: 100px;
+            height: 100px;
+            background-color: blue;
+            position: sticky;
+        }
+    </style>
+</head>
+<body>
+    <div class ="container">
+        This is content
+        <div class="b1"></div>
+        <div class="b2"></div>
+        </div>>
+</body>
+</html>
+
+<!--
+    Static :- we cant use left bottom right left and z-index property
+
+    Relative :- we can use top left bottom right and z-index property and our element move acc to itsparent
+
+    Absolute :- we can use top left bottom right and z-index property and our element will remove from the doc flow now this element move acc to its first non-static parent
+
+    Fixed :- we can use top left bottom right and z-index propertyand our element will remove from the doc flow now this element move acc to its first non-static parent
+
+    Sticky :- we can use top left bottom right and z-index property
+-->
